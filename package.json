@@ -1,0 +1,24 @@
+{
+  "name": "autocomplete-markdown",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "This package can help you code in .md faster. It's all about markdown code block-suggestion.",
+  "keywords": [
+    "autocomplete",
+    "provider",
+    "markdown"
+  ],
+  "repository": "https://github.com/Baiyun-u-smartAI/atom-autocomplete-markdown",
+  "author": "Fansgou Tseng @Baiyun University <fansgou@mail.ru>",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
