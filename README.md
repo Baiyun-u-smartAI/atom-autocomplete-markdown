@@ -1,4 +1,1 @@
 # atom-autocomplete-markdown
-
-**newline**
-
