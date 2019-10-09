@@ -65,9 +65,9 @@
 		"description": "二级标签"
 	},
 	{
-		"displayText": "Blockquotes 2",
-		"snippet": ">>${1:Bold Sentence}",
-		"description": "二级标签"
+		"displayText": "Blockquotes 3",
+		"snippet": ">>>${1:Bold Sentence}",
+		"description": "三级标签"
 	},
 	{
 	    "displayText": "ImgDefault",
@@ -158,5 +158,10 @@
 	    "displayText": "Underline",
 	    "snippet": "<u>${1:text}</u>",
 	    "description": "下划线"
+	},
+	{
+	    "displayText": "FontSize",
+	    "snippet": "<font size=${1:Size}></font>",
+	    "description": "字体设置"
 	}
 ]
